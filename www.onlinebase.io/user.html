@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+
+<!-- Mirrored from www.onlinebase.io/user.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Jul 2023 06:38:23 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <!-- Meta Tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Laralink">
+  <!-- Favicon Icon -->
+  <link rel="icon" href="assets/img/favicon.png" />
+  <!-- Site Title -->
+  <title>Online. Have Fun. Earn.</title>
+  <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/plugins/slick.css">
+  <link rel="stylesheet" href="assets/css/plugins/animate.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="cs-dark">
+  <div class="cs-preloader cs-white_bg cs-center">
+    <div class="cs-preloader_in">
+      <img src="assets/img/logo_mini.png" alt="Logo">
+    </div>
+  </div>
+  <!-- Start Header Section -->
+  <header class="cs-site_header cs-style1 cs-sticky-header cs-primary_color text-uppercase cs-white_bg">
+    <div class="cs-main_header">
+      <div class="container">
+        <div class="cs-main_header_in">
+          <div class="cs-main_header_left">
+            <a class="cs-site_branding cs-accent_color" href="index-2.html">
+              <img src="assets/img/logo_white.png" alt="Logo" class="cs-hide_dark">
+              <img src="assets/img/logo_white.png" alt="Logo" class="cs-hide_white">
+            </a>
+          </div>
+          <div class="cs-main_header_right">
+            <div class="cs-nav">
+              <ul class="cs-nav_list">
+                <!-- <li><a href="#home" class="cs-smoth_scroll">Staking</a></li> class="menu-item-has-children"
+                <li><a href="#about" class="cs-smoth_scroll">About</a></li>
+                <li><a href="#mission" class="cs-smoth_scroll">Mission</a></li>
+                <li><a href="/Onlinebase_Whitepaper.pdf" class="cs-smoth_scroll">Whitepaper</a></li>
+                <li><a href="#tokenomic" class="cs-smoth_scroll">Tokenomic</a></li>
+                <li><a href="#team" class="cs-smoth_scroll">Team</a></li> -->
+              </ul>
+            </div>
+          </div>
+          <div class="cs-main_header_right">
+            <div class="cs-toolbox">
+              <span id="hidein" class="cs-btn cs-btn_bordered cs-modal_btn" data-modal="signUp">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="7" r="5"/><path stroke-linecap="round" stroke-linejoin="round" d="M17 22H5.266a2 2 0 0 1-1.985-2.248l.39-3.124A3 3 0 0 1 6.649 14H7m12-1v6m-3-3h6"/></g></svg>
+                <span>SignIn/Up</span>
+              </span>
+              <span hidden="hidden" id="hideout">
+                <span style="display: inline;" >
+                  <input type="submit" id="signout" name="signout" value="SignOut" />
+                </span>
+                <span style="display: inline;" class="cs-btn cs-btn_filed cs-accent_btn cs-modal_btn" data-modal="connect_wallet">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 20 20"><path fill="currentColor" d="M16 6H3.5v-.5l11-.88v.88H16V4c0-1.1-.891-1.872-1.979-1.717L3.98 3.717C2.891 3.873 2 4.9 2 6v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2zm-1.5 7.006a1.5 1.5 0 1 1 .001-3.001a1.5 1.5 0 0 1-.001 3.001z"/></svg>
+                  <span>Connect</span>
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End Header Section -->
+  
+    <div class="cs-height_120 cs-height_lg_80"></div>
+    <center>
+      <div>
+        <input type="hidden" id="useruid">
+        <input type="hidden" id="timeclaim">
+      </div>
+    <div class="walletstats">
+      <img width="24px" src="assets/img/wonline.png" alt="Logo">
+      <span id="wonline" style="vertical-align: middle;">-</span>
+    </div>
+    <div class="walletstats">
+      <img width="24px" src="assets/img/logo_mini.png" alt="Logo">
+      <span id="wltBlc" style="vertical-align: middle; font-size: large;">-</span>
+    </div>
+    </center>
+    <div class="cs-height_120 cs-height_lg_80"></div>
+
+  <div class="container cs-boxleft cs-style1 cs-white_bg" data-src="assets/img/bgball.png">
+    <div class="cs-height_240 cs-height_lg_160"></div>
+    <div class="cs-height_80 cs-height_lg_40"></div>
+      </div>
+  <!-- Start Services -->
+  <section>
+    <div class="container">
+      <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Staking')" id="defaultOpen">Staking</button>
+        <button class="tablinks" onclick="openCity(event, 'Conversion')">Conversion</button>
+        <button class="tablinks" onclick="openCity(event, 'Withdraw')">Withdraw</button>
+      </div>
+      
+      <div id="Staking" class="tabcontent">
+        <p></p>
+        <span style="display: inline; margin-right: 8px;"><img src="assets/img/logo_mini.png" style="width: 32px;"></span> 
+        <input style="background-color: rgba(32, 8, 48, 0.64); border: none; display: inline; border-radius: 4px;" type="text" id="stakeammount" name="stakeammount" placeholder="Stake Amount" required>
+        </p>
+        <p><b>Stake Duration :</b></p>
+        <p><button onclick="chooseStakeLgt(100)" class="stakeduration">1 Month</button>
+          <button onclick="chooseStakeLgt(30)" class="stakeduration">3 Month</button></p>
+        <p><button onclick="chooseStakeLgt(3)" class="stakeduration">6 Month</button>
+          <button onclick="chooseStakeLgt(1)" class="stakeduration">12 Month</button></p>
+        <p></p>
+        <center><b>Staking Reward</b></center>
+        <p></p>
+        <center><b style="font-size: xx-large;" id="stakereward" >0</b><br/><span>Coins</span></center>
+        <p></p>
+        <center><button class="staking">Confirm to Stake</button></center>
+        <p></p>
+        <p></p>
+        <p><span style="vertical-align: middle;">* rate will be dynamic according to </span><img src="assets/img/logo_white.png" style="width: 64px;"><span style="vertical-align: middle;"> realtime price</span></p>
+          <p>
+          ** Rate : <img src="assets/img/logo_mini.png" style="width: 16px;"><span id="onlinePrice" style="vertical-align: middle; margin-right: 8px;"> 1,000.00</span></p>
+      </div>
+      
+      <div id="Conversion" class="tabcontent">
+        <p></p>
+        <span style="display: inline; margin-right: 8px;"><img src="assets/img/wonline.png" style="width: 32px;"></span> 
+        <input oninput="inputConvert()" style="background-color: rgba(32, 8, 48, 0.64); border: none; display: inline; border-radius: 4px;" type="text" id="convertammount" name="convertammount" placeholder="Convert Amount" required>
+        </p>
+        <p></p>
+        <center>
+          <span style="vertical-align: middle; margin-right: 8px;">
+            <img src="assets/img/logo_mini.png" style="vertical-align: middle; width: 32px;"></span> 
+          <b style="vertical-align: middle; font-size: xx-large;" id="convertreward" >0</b></center>
+        <p></p>
+        <center><button class="converting">Confirm to Convert</button></center>
+        <p></p>
+        <p></p>
+        <p style="vertical-align: middle;">
+          ** Rate : <img src="assets/img/wonline.png" style="width: 16px;">
+          <span style="vertical-align: middle; margin-right: 8px;"> 1,000,000,000.00</span></p>
+      </div>
+      
+      <div id="Withdraw" class="tabcontent">
+        <p></p>
+        <p><b>Stake List :</b></p>
+        <p><span style="display: inline; margin-right: 8px;"><img src="assets/img/logo_mini.png" style="width: 32px;"></span>
+          <span style="display: inline; margin-right: 8px;">1,000,000.00</span>
+          <button class="stakedraw">Withdraw</button></p>
+          <p><span style="display: inline; margin-right: 8px;"><img src="assets/img/logo_mini.png" style="width: 32px;"></span>
+            <span style="display: inline; margin-right: 8px;">1,000,000.00</span>
+            <button class="stakedraw">Withdraw</button></p>
+            <p><span style="display: inline; margin-right: 8px;"><img src="assets/img/logo_mini.png" style="width: 32px;"></span>
+              <span style="display: inline; margin-right: 8px;">1,000,000.00</span>
+              <button class="stakeopen">  __OPEN__  </button></p>
+              <p><span style="display: inline; margin-right: 8px;"><img src="assets/img/logo_mini.png" style="width: 32px;"></span>
+                <span style="display: inline; margin-right: 8px;">1,000,000.00</span>
+                <button class="stakeclose">__CLOSE__</button></p>
+        <p></p>
+      </div>
+
+    </div>
+  </section>
+  <!-- End Services -->
+      <div class="container cs-boxright cs-style1 cs-white_bg" data-src="assets/img/bgball.png">
+        <div class="cs-height_240 cs-height_lg_160"></div>
+        <div class="cs-height_240 cs-height_lg_160"></div>
+          </div>
+  
+  <!-- Start Team -->
+  <section id="team">
+    <div class="cs-height_70 cs-height_lg_40"></div>
+    <div class="container">
+      <div class="cs-seciton_heading cs-style1 text-uppercase wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+        <center><h2 class="cs-bold cs-hero_secondary_title text-uppercase cs-font_60 cs-font_36_sm fontgradient">OUR PARTNERS</h2></center>
+      </div>
+      <center>
+      <div class="row wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+        <div class="col-lg-4 col-sm-4">
+          <div class="cs-team cs-style1 text-center cs-white_bg">
+            <div class="cs-height_30 cs-height_lg_30"></div>
+            <div class="cs-member_thumb">
+              <a href="https://www.pinksale.finance/" target="_blank" class="cs-pad_16 cs-pad_lg_8">
+                <img style="width: 400px; height: auto;" src="assets/img/pinksale.png" alt="Member">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-4">
+          <div class="cs-team cs-style1 text-center cs-white_bg">
+            <div class="cs-height_30 cs-height_lg_30"></div>
+            <div class="cs-member_thumb">
+              <a href="https://www.dexview.com/" target="_blank" class="cs-pad_16 cs-pad_lg_8">
+              <img style="width: 400px; height: auto;" src="assets/img/dexview.png" alt="Member">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-4">
+          <div class="cs-team cs-style1 text-center cs-white_bg">
+            <div class="cs-height_30 cs-height_lg_30"></div>
+            <div class="cs-member_thumb">
+              <a href="https://coinmarketcap.com/currencies/official-online/" target="_blank" class="cs-pad_16 cs-pad_lg_8">
+              <img style="width: 400px; height: auto;" src="assets/img/Coinmarketcap.png" alt="Member">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </center>
+      <div class="cs-height_50 cs-height_lg_30"></div>
+    </div>
+  </section>
+  <!-- End Team -->
+  <!-- Start Team -->
+  <section id="team">
+    <div class="cs-height_70 cs-height_lg_40"></div>
+    <div class="container">
+      <div class="cs-seciton_heading cs-style1 text-uppercase wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+        <center><h2 class="cs-bold cs-hero_secondary_title text-uppercase cs-font_60 cs-font_36_sm fontgradient">Our Team</h2></center>
+      </div>
+      <center>
+      <div class="row wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+        <div class="col-lg-4 col-sm-6">
+          <div class="cs-team cs-style1 text-center cs-white_bg">
+            <div class="cs-height_30 cs-height_lg_30"></div>
+            <div class="cs-member_thumb">
+              <img style="width: 320px; height: auto;" src="assets/img/Antony.png" alt="Member">
+            </div>
+          </div>
+          <div class="cs-height_160 cs-height_lg_120">
+            <br/>Antony as co-founder of Onlinebase, has 5 + years experience in managing blockchain project. And serve as investor and advisor in few top project.
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="cs-team cs-style1 text-center cs-white_bg">
+            <div class="cs-height_30 cs-height_lg_30"></div>
+            <div class="cs-member_thumb">
+              <img style="width: 320px; height: auto;" src="assets/img/Rivaldo.png" alt="Member">
+            </div>
+          </div>
+          <div class="cs-height_160 cs-height_lg_120">
+            <br/>James Rivaldo as CEO of Onlinebase, has taken part in multiple digital projects, and have 2+ years experience in digital marketing and risk management.
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="cs-team cs-style1 text-center cs-white_bg">
+            <div class="cs-height_30 cs-height_lg_30"></div>
+            <div class="cs-member_thumb">
+              <img style="width: 320px; height: auto;" src="assets/img/Ernitha.png" alt="Member">
+            </div>
+          </div>
+          <div class="cs-height_160 cs-height_lg_120">
+            <br/>Ernitha as CMO of Onlinebase, who is the end year student of Management Study Program in a university, has taken part for 1 year as a digital marketer.
+          </div>
+        </div>
+      </div>
+      </center>
+      <div class="cs-height_50 cs-height_lg_30"></div>
+    </div>
+  </section>
+  <!-- End Team -->
+  <!-- Start Mint Modal -->
+  <div class="cs-modal" data-modal="signUp">
+    <div class="cs-modal_in">
+      <div class="cs-modal_container cs-white_bg">
+        <button class="cs-close_modal cs-center cs-primary_bg">
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11.7071 1.70711C12.0976 1.31658 12.0976 0.683417 11.7071 0.292893C11.3166 -0.0976311 10.6834 -0.0976311 10.2929 0.292893L11.7071 1.70711ZM0.292893 10.2929C-0.0976311 10.6834 -0.0976311 11.3166 0.292893 11.7071C0.683417 12.0976 1.31658 12.0976 1.70711 11.7071L0.292893 10.2929ZM1.70711 0.292893C1.31658 -0.0976311 0.683417 -0.0976311 0.292893 0.292893C-0.0976311 0.683417 -0.0976311 1.31658 0.292893 1.70711L1.70711 0.292893ZM10.2929 11.7071C10.6834 12.0976 11.3166 12.0976 11.7071 11.7071C12.0976 11.3166 12.0976 10.6834 11.7071 10.2929L10.2929 11.7071ZM10.2929 0.292893L0.292893 10.2929L1.70711 11.7071L11.7071 1.70711L10.2929 0.292893ZM0.292893 1.70711L10.2929 11.7071L11.7071 10.2929L1.70711 0.292893L0.292893 1.70711Z" fill="white"/>
+          </svg>            
+        </button>
+        <div class="cs-mint_secton">
+          <div id="login-box">
+            <div class="left">
+              <h1>Sign Up</h1>
+              <input type="text" id="username" name="username" placeholder="User Name" required>
+              <input type="text" id="email" name="email" placeholder="E-mail" required>
+              <input type="password" id="password" name="password" placeholder="Password" required>
+              <hr>
+              <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+              <input type="submit" id="signup" name="signup" value="SignUp" />
+              <span class="cs-close_modal cs-btn cs-modal_btn" data-modal="signinpage">
+                <span>SignIn</span>
+              </span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  
+  <div class="cs-modal" data-modal="signinpage">
+    <div class="cs-modal_in">
+      <div class="cs-modal_container cs-white_bg">
+        <button class="cs-close_modal cs-center cs-primary_bg">
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11.7071 1.70711C12.0976 1.31658 12.0976 0.683417 11.7071 0.292893C11.3166 -0.0976311 10.6834 -0.0976311 10.2929 0.292893L11.7071 1.70711ZM0.292893 10.2929C-0.0976311 10.6834 -0.0976311 11.3166 0.292893 11.7071C0.683417 12.0976 1.31658 12.0976 1.70711 11.7071L0.292893 10.2929ZM1.70711 0.292893C1.31658 -0.0976311 0.683417 -0.0976311 0.292893 0.292893C-0.0976311 0.683417 -0.0976311 1.31658 0.292893 1.70711L1.70711 0.292893ZM10.2929 11.7071C10.6834 12.0976 11.3166 12.0976 11.7071 11.7071C12.0976 11.3166 12.0976 10.6834 11.7071 10.2929L10.2929 11.7071ZM10.2929 0.292893L0.292893 10.2929L1.70711 11.7071L11.7071 1.70711L10.2929 0.292893ZM0.292893 1.70711L10.2929 11.7071L11.7071 10.2929L1.70711 0.292893L0.292893 1.70711Z" fill="white"/>
+          </svg>            
+        </button>
+          <div class="cs-mint_secton">
+            <div id="login-box">
+              <div class="left">
+                <h1>Sign In</h1>
+    
+                <input type="text" id="emailin" name="emailin" placeholder="E-mail" />
+                <input type="password" id="passwordin" name="passwordin" placeholder="Password" />
+    
+                <input type="submit" id="signin" name="signin" value="SignIn" />
+                <span class="cs-close_modal cs-btn cs-modal_btn" data-modal="signUp">
+                  <span>signUp</span>
+                </span>
+                <br /><br />    
+                <button class="social-signin google" id='login'>Log in with Google</button>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!-- Start Mint Modal -->
+
+  <!-- Start Connect Modal -->
+  <div class="cs-modal" data-modal="connect_wallet">
+    <div class="cs-modal_in">
+      <div class="cs-modal_container cs-white_bg">
+        <button class="cs-close_modal cs-center cs-primary_bg">
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11.7071 1.70711C12.0976 1.31658 12.0976 0.683417 11.7071 0.292893C11.3166 -0.0976311 10.6834 -0.0976311 10.2929 0.292893L11.7071 1.70711ZM0.292893 10.2929C-0.0976311 10.6834 -0.0976311 11.3166 0.292893 11.7071C0.683417 12.0976 1.31658 12.0976 1.70711 11.7071L0.292893 10.2929ZM1.70711 0.292893C1.31658 -0.0976311 0.683417 -0.0976311 0.292893 0.292893C-0.0976311 0.683417 -0.0976311 1.31658 0.292893 1.70711L1.70711 0.292893ZM10.2929 11.7071C10.6834 12.0976 11.3166 12.0976 11.7071 11.7071C12.0976 11.3166 12.0976 10.6834 11.7071 10.2929L10.2929 11.7071ZM10.2929 0.292893L0.292893 10.2929L1.70711 11.7071L11.7071 1.70711L10.2929 0.292893ZM0.292893 1.70711L10.2929 11.7071L11.7071 10.2929L1.70711 0.292893L0.292893 1.70711Z" fill="white"/>
+          </svg>            
+        </button>
+        <div class="cs-wallet_section text-center">
+          <h2 class="cs-font_22 text-uppercase cs-normal cs-m0">Connect Wallet</h2>
+          <div class="cs-height_25 cs-height_lg_25"></div>
+          <ul class="cs-list cs-style1 cs-mp0">
+            <li><button id="connectButton" onclick="connect()"><img src="assets/img/metamask.svg" alt="Logo"></button></li>
+            <!-- <li><a href="#"><img src="assets/img/trustwallet.svg" alt="Logo"></a></li>
+            <li><a href="#"><img src="assets/img/coinbase.svg" alt="Logo"></a></li>
+            <li><a href="#"><img src="assets/img/walletconnect.svg" alt="Logo"></a></li>-->
+          </ul>
+          <div class="cs-height_80 cs-height_lg_80"></div>
+          <p><b>Connected Wallet : </b></p>
+          <p style="overflow: hidden;" id="connectWallet" class="cs-m0">Connect Your Wallet to Get Access.</p>
+          <input hidden="hidden" style="max-width: 160; overflow: hidden;" id="connectedWallet" class="cs-m0">
+          <div class="cs-height_40 cs-height_lg_40"></div>
+          <p hidden="hidden" id="onlinetokenbtn" class="cs-m0">
+            <button style="border: none; background-color: transparent;" id="connectButton" onclick="addOnline()">
+              <span style="vertical-align: middle;">Add </span><img style="padding: 0px 8px; width: 80px;" src="assets/img/logo_white.png" alt="Logo"><span style="vertical-align: middle;"> to Your Wallet</span></button>
+          </p>
+          <center><p hidden="hidden" id="emailbind" class="cs-m0">
+            [if yet, link your email first here]
+            <input type="text" id="ebind" name="ebind" placeholder="E-mail" />
+            <input type="password" id="passbind" name="passbind" placeholder="Password" />
+
+            <input type="submit" id="binding" name="binding" value="Link" />
+          </p></center>
+          <div class="cs-height_40 cs-height_lg_40"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Start Connect Modal -->
+
+    <!-- Start Footer -->
+    
+  <section class="cs-footer">
+    <div class="container">
+      <div class="cs-height_50 cs-height_lg_30"></div>
+      <div class="row wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+        <center><div>
+          <a href="index-2.html">
+            <img style="height: 32px;" src="assets/img/logo_white.png" alt="Logo" class="cs-hide_white">
+          </a>
+            <div class="cs-height_25 cs-height_lg_25"></div>
+            <p>ONLINE aspires to present a technology that can 
+              easily make money just by being online.</p>
+          <div class="cs-height_25 cs-height_lg_25"></div>
+          <div>
+            <a href="https://www.youtube.com/@onlinebase_official" target="_blank" class="cs-pad_16 cs-pad_lg_8">
+              <img style="width: 32px; height: auto;" src="assets/img/yt.png"/>
+            </a>
+            <a href="https://medium.com/@officialonlinebase" target="_blank" class="cs-pad_16 cs-pad_lg_8">
+              <img style="width: 32px; height: auto;" src="assets/img/md.png"/>
+            </a>
+            <a href="https://twitter.com/RealOnlineBase" target="_blank" class="cs-pad_16 cs-pad_lg_8">
+              <img style="width: 32px; height: auto;" src="assets/img/tw.png"/>
+            </a>
+            <a href="https://t.me/OnlineBaseGroup" target="_blank" class="cs-pad_16 cs-pad_lg_8">
+              <img style="width: 32px; height: auto;" src="assets/img/tg.png"/>
+            </a>
+            <a href="https://t.me/OnlineBaseAnnouncement" target="_blank" class="cs-pad_16 cs-pad_lg_8">
+              <img style="width: 32px; height: auto;" src="assets/img/tg.png"/>
+            </a>
+            <a href="https://discord.gg/RFXcZcxc9K" target="_blank" class="cs-pad_16 cs-pad_lg_8">
+              <img style="width: 32px; height: auto;" src="assets/img/dc.png"/>
+            </a>
+          </div>
+        </center>
+          <div class="cs-height_25 cs-height_lg_25"></div>
+        </div>
+      <hr style="border-top: 4px dashed yellowgreen;" />
+      <div class="cs-height_45 cs-height_lg_25"></div>
+      <div class="cs-copyright text-center wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s"><span class="cs-primary_font cs-primary_color">Online Inc.</span></div>
+    </div>
+    <div class="cs-height_45 cs-height_lg_25"></div>
+  </section>
+  <!-- End Footer -->
+
+  <!-- Script -->
+  <script src="assets/js/plugins/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/plugins/jquery.slick.min.js"></script>
+  <script src="assets/js/plugins/jquery.counter.min.js"></script>
+  <script src="assets/js/plugins/wow.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="../cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+  <script src="index.js" type="application/javascript"></script>
+</body>
+
+<!-- Mirrored from www.onlinebase.io/user.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Jul 2023 06:38:26 GMT -->
+</html>
+<input type='hidden' id='onlineprice' value='0.0065543826960749'>
+<script>
+  var OnlinePrice = document.getElementById("onlineprice");
+  var OnlinePriceUI = document.getElementById("onlinePrice");
+  OnlinePriceUI.innerHTML = Math.round(1 / OnlinePrice.value).toLocaleString(undefined, {minimumFractionDigits: 2});
+  
+  document.getElementById("defaultOpen").click();
+
+function inputConvert()
+{
+  ammC = document.getElementById("convertammount");
+  rwdC = document.getElementById("convertreward");
+  minC = 1000000000;
+
+  if(ammC.value >= minC)
+  {
+    rwdC.innerHTML = Math.round(ammC.value / 1000000000).toLocaleString(undefined, {minimumFractionDigits: 2});
+  }
+  else
+  {
+    rwdC.innerHTML = 0;
+  }
+}
+
+function chooseStakeLgt(length) {
+  amm = document.getElementById("stakeammount");
+  rwd = document.getElementById("stakereward");
+  min = Math.round(1 / OnlinePrice.value);
+
+  if(amm.value < min)
+  {
+    amm.value = min;
+  }
+
+  if(length == 1)
+  {
+    num = (amm.value / length * (1000000000 / min)) + (amm.value / length * (500000000 / min));
+  }
+  else
+  {
+    num = amm.value / length * (1000000000 / min);
+  }
+  
+  rwd.innerHTML = Math.round(num).toLocaleString(undefined, {minimumFractionDigits: 2});
+}
+
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+  </script>
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js";
+  import { getAuth ,linkWithCredential ,createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged, EmailAuthProvider, GoogleAuthProvider, signInWithPopup, signOut } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-auth.js";
+  import { getDatabase, set, ref, update, child, get } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-database.js";
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyCdbVhVu9bTofV4XN3fIDvMsnkOecL83AI",
+    authDomain: "justonline-io.firebaseapp.com",
+    databaseURL: "https://justonline-io-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "justonline-io",
+    storageBucket: "justonline-io.appspot.com",
+    messagingSenderId: "981856306032",
+    appId: "1:981856306032:web:52ef5dad0fffde2c2e85b5",
+    measurementId: "G-492GDPC2YJ"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const auth = getAuth(app);
+  const provider = new GoogleAuthProvider(app);
+  const eprovider = new EmailAuthProvider(app);
+  const database = getDatabase(app);
+  let hiddenIn = document.getElementById("hidein");
+  let hiddenOut = document.getElementById("hideout");
+  let useruidUI = document.getElementById('useruid');
+  let timeclaimUI = document.getElementById('timeclaim');
+  let wonlineUI = document.getElementById('wonline');
+
+  signup.addEventListener('click',(sgu) => {
+
+  var email = document.getElementById('email').value;
+  var password = document.getElementById('password').value;
+  var username = document.getElementById('username').value;
+
+  createUserWithEmailAndPassword(auth, email, password)
+    .then((userCredential) => {
+     // Signed in 
+      const user = userCredential.user;
+
+      set(ref(database, 'User/' + user.uid),{
+          UserID: user.uid,
+          UserName: username
+      })
+
+      alert('user ' + username + ' created! You can LogIn now');
+      // ...
+    })
+    .catch((error) => {
+      const errorCode = error.code;
+      const errorMessage = error.message;
+
+      alert(errorMessage);
+    // ..
+    });
+
+});
+
+ signin.addEventListener('click',(sgi)=>{
+   var email = document.getElementById('emailin').value;
+   var password = document.getElementById('passwordin').value;
+
+      signInWithEmailAndPassword(auth, email, password)
+      .then((userCredential) => {
+        // Signed in 
+        const user = userCredential.user;
+
+        /* update(ref(database, 'User/' + user.uid),{
+          UserID: user.uid,
+        })*/
+
+         alert(user.displayName + ' logged in!');
+         location.reload();
+        // ...
+      })
+      .catch((error) => {
+        const errorCode = error.code;
+        const errorMessage = error.message;
+
+        alert(errorMessage);
+  });
+
+ });
+  
+const user = auth.currentUser;
+onAuthStateChanged(auth, (user) => {
+  if (user) {
+    // User is signed in, see docs for a list of available properties
+    // https://firebase.google.com/docs/reference/js/firebase.User
+    const uid = user.uid;
+    hiddenOut.removeAttribute("hidden");
+    hiddenIn.setAttribute("hidden", "hidden");
+    getData(uid);
+  } else {
+    // User is signed out
+    hiddenIn.removeAttribute("hidden");
+    hiddenOut.setAttribute("hidden", "hidden");
+    window.location.replace('index-2.html');
+  }
+});
+
+login.addEventListener('click',(lgn) => {
+// sign in with popup tab
+signInWithPopup(auth, provider)
+ .then((result) => {
+   // This gives you a Google Access Token. You can use it to access the Google API.
+   const credential = GoogleAuthProvider.credentialFromResult(result);
+   const token = credential.accessToken;
+   // The signed-in user info.
+   const user = result.user;
+
+   alert('login as : ' + user.displayName);
+   location.reload();
+   // ...
+ }).catch((error) => {
+   // Handle Errors here.
+   const errorCode = error.code;
+   const errorMessage = error.message;
+   // The email of the user's account used.
+   const email = error.email;
+   // The AuthCredential type that was used.
+   const credential = GoogleAuthProvider.credentialFromError(error);
+   // ...
+
+   alert(errorMessage);
+ });
+});
+
+signout.addEventListener('click',(sgo) => {
+ signOut(auth).then(() => {
+  // Sign-out successful.
+  location.reload();
+  // An error happened.
+ });
+});
+
+binding.addEventListener('click',(bnd) => {
+   var emailBind = document.getElementById('ebind').value;
+   var passwordBind = document.getElementById('passbind').value;
+   const ecredential = EmailAuthProvider.credential(emailBind, passwordBind);
+   const user = auth.currentUser;
+   linkWithCredential(user, ecredential)
+     .then((usercred) => {
+       user = usercred.user;
+       alert("Account linking success" + user);
+       location.reload();
+     }).catch((error) => {
+       alert("Account linking error" + error);
+     });
+});
+
+function saveData(useruid, timeclaim, wonline) {
+  set(ref(database, 'Data/' + useruid),
+  {
+    AirDrop : 1,
+    DayWOnline : 0,
+    ScreenTime : 0,
+    TimeClaim : timeclaim,
+    WOnline : wonline
+  })
+  .then(()=>{
+    alert('Data Saved!');
+  })
+  .catch((error)=>{
+    alert('error :' + error);
+  });
+}
+
+function getData(useruid) {
+  const dbref = ref(database);
+  get(child(dbref, 'Data/' + useruid))
+  .then((snapshot)=>{
+    if(snapshot.exists()){
+      var data = snapshot.val();
+      useruidUI.value = useruid;
+      timeclaimUI.value = data.TimeClaim;
+      wonlineUI.innerHTML = Math.round(data.WOnline * 10000000).toLocaleString(undefined, {minimumFractionDigits: 2});
+    }
+    else
+    {
+      saveData(useruid, 0, 0);
+    }
+  })
+  .catch((error)=>{
+    alert('error :' + error);
+  });
+}
+</script>
