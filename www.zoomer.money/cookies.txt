@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.zoomer.money	TRUE	/	FALSE	1999999999	crumb	BcgaLY8TbnA6YTkxNGVlZTE5MTQ1OTYzYTA5YWIwMzYyZjRmYjI2
+

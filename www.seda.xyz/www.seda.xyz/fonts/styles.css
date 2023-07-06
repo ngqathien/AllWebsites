@@ -1,0 +1,33 @@
+@font-face {
+	font-family: 'Formular';
+	src: url('formular-medium.eot');
+	src:
+	     url('formular-mediumd41d.eot?#iefix') format('embedded-opentype'),
+	     url('formular-medium.woff2') format('woff2'),
+	     url('formular-medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Formular';
+	src: url('formular-regular.eot');
+	src:
+	     url('formular-regulard41d.eot?#iefix') format('embedded-opentype'),
+	     url('formular-regular.woff2') format('woff2'),
+	     url('formular-regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Formular';
+	src: url('formular-light.eot');
+	src:
+	     url('formular-lightd41d.eot?#iefix') format('embedded-opentype'),
+	     url('formular-light.woff2') format('woff2'),
+	     url('formular-light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}

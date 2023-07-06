@@ -1,0 +1,26 @@
+.navbar {
+  background-color: Transparent !important;
+}
+
+btn:hover {
+  color: #000000 !important;
+}
+
+.btn:hover {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 .2rem rgba(255,255,255,0.5);
+}
+
+.btn-primary:focus {
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  color: #eb5e1a;
+  background-color: #000000 !important;
+  border-color: #ffffff !important;
+}
+

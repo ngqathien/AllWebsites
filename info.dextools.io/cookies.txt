@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.dextools.io	TRUE	/	FALSE	1999999999	__cf_bm	Bs0D7v0ZpUBTO99HQxpQQ0kuOr0PlflquA2oURM151o-1688634863-0-AZ9CrQJW8TNc2pMZxlrJzKuuboLsaApY2vk4pHGNAag+3es3+CdmAvHc1AiWnq0IITYvcfrJWXkcXWMaVx//crA=
+info.dextools.io	TRUE	/	FALSE	1999999999	SameSite	None
+.medium.com	TRUE	/	FALSE	1999999999	__cfruid	1dec62ef3d5b1ce1dd2e50294b78b0a7577526c4-1688635151
+miro.medium.com	TRUE	/	FALSE	1999999999	SameSite	None
+
