@@ -1,0 +1,60 @@
+.mighty-title-box-1 .mighty-title-inner {
+	position: relative;
+  margin-bottom: 65px;
+}
+
+.mighty-title-box-1 .mighty-subtitle {
+  position: relative;
+	text-shadow: none;
+	text-transform: uppercase;
+	font-size: var(--font-size-body);
+	letter-spacing: 0.16em;
+	color: var(--color-theme-primary);
+	padding: 10px 15px;
+  text-align: center;
+}
+
+.mighty-title-box-1 .mighty-heading-title {
+	text-shadow: var(--title-text-shadow);
+	color: var(--color-theme-section-title);
+}
+  
+.mighty-title-box-1 .mighty-subtitle::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-left: 2px solid var(--color-theme-primary);
+    border-bottom: 2px solid var(--color-theme-primary);
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+  
+.mighty-title-box-1 .mighty-subtitle::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid var(--color-theme-primary);
+    border-top: 2px solid var(--color-theme-primary);
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+
+.mighty-title-box-1.mighty-title-with-desc .mighty-title-inner {
+	margin-bottom: 30px;
+}
+
+.mighty-title-box-1.mighty-title-box .mighty-subtitle {
+  margin: 0;
+}
+
+  /* Responsive */
+
+@media (max-width: 767px){
+
+    .mighty-title-box-1 .mighty-title-inner{
+      margin-bottom: 30px;
+    }
+
+}

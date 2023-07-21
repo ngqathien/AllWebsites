@@ -1,0 +1,745 @@
+/**
+ * All of the CSS for your elementor-facing functionality should be
+ * included in this file.
+ */
+
+/*---------------------------------------------------------------------
+                        Mighty Domain Search
+---------------------------------------------------------------------*/
+.mighty-wp-whmcs-domain-available {
+    color: #59ba41;
+    font-weight: 800;
+}
+
+.mighty-wp-whmcs-domain-unavailable {
+    color: #c31313;
+    font-weight: 800;
+}
+
+.mighty-wp-whmcs-domain-info {
+    color: #ffa921;
+    font-weight: 800;
+}
+
+.mighty-wp-whmcs-btn-available {
+    background: #59ba41 !important;
+}
+
+.mighty-wp-whmcs-btn-unavailable {
+    background: #c31313 !important;
+}
+
+.mighty-wp-whmcs-btn-domain-info {
+    background: #337ab7 !important;
+}
+
+.mighty-wp-whmcs-form-input-box {
+    margin: 0 0 10px;
+}
+
+.mighty-wp-whmcs-form-input-box .mighty-domain-btn {
+    text-align: right;
+    padding-left: 30px;
+}
+
+.mighty-wp-whmcs-form-input-box input[type="text"] {
+    border-radius: 0;
+    color: #9cb0c2;
+    display: inline-block;
+    font-size: 16px;
+    height: 52px;
+    letter-spacing: 0;
+    padding: 0 15px;
+    background: transparent;
+}
+
+.mighty-wp-whmcs-form-input-box input[type="submit"] {
+    background: #59ba41 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 54px;
+    letter-spacing: 0;
+    padding: 0;
+    text-transform: uppercase;
+    width: 27%;
+}
+
+.mighty-domain-shortcode .mighty-wp-whmcs-form-input-box input[type="text"] {
+    width: 100%;
+    line-height: 44px !important;
+    background: var(--global-body-bgcolor);
+}
+
+.mighty-domain-shortcode .mighty-wp-whmcs-form-input-box .mighty-domain-btn {
+    margin-top: 15px;
+    padding: 0;
+    width: 100%;
+}
+
+.mighty-domain-shortcode .mighty-wp-whmcs-form-input-box .mighty-domain-btn button {
+    width: auto;
+    padding: 10px 20px;
+}
+
+.mighty-second-search-style .mighty-domain-shortcode .mighty-wp-whmcs-form-input-box .mighty-domain-btn {
+    width: 22%;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.mighty-second-search-style .mighty-domain-shortcode .mighty-wp-whmcs-form-input-box input[type="text"] {
+    width: 78%;
+}
+
+/*---------------------------------------------------------------------
+                        Mighty pricing
+-----------------------------------------------------------------------*/
+
+.mighty-price-table-6 {
+    overflow: hidden;
+    margin-top: 0;
+    position: relative;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    padding: 10px 15px 30px;
+}
+
+.mighty-price-table-6 .mighty-price-body {
+    position: relative;
+    z-index: 99;
+}
+
+.mighty-price-table-6 .mighty-price-header {
+    position: relative;
+    z-index: 99;
+}
+
+.mighty-price-table-6 .mighty-price-header .mighty-price span {
+    font-size: var(--font-size-h3);
+}
+
+.mighty-price-table-6 .mighty-price-header .mighty-price-label {
+    color: var(--color-theme-white);
+}
+
+.mighty-price-table-6 .mighty-price-body ul.mighty-price-service li {
+    list-style: none;
+    margin: 0 0 10px;
+}
+
+.mighty-price-table-6 .mighty-price-body ul.mighty-price-service li span {
+    font-size: var(--font-size-body);
+}
+
+.mighty-price-table-6 .mighty-price-header .mighty-price-label {
+    margin-bottom: 15px;
+    display: block;
+}
+
+.mighty-price-table-6:hover .mighty-price-header .mighty-price-label {
+    text-shadow: var(--color-theme-hover-shadow);
+    color: var(--color-theme-primary);
+}
+
+.mighty-price-table-6 .mighty-price-body ul.mighty-price-service {
+    padding: 20px 0 10px;
+    margin: 0;
+}
+
+.mighty-price-table-6 .mighty-price-header .mighty-price-description {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.mighty-price-table-6 .mighty-border-span1 {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10px;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    background: var(--color-theme-primary-opacity);
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transform-origin: top center;
+    -webkit-transform-origin: top center;
+}
+
+.mighty-price-table-6:hover .mighty-border-span1,
+.mighty-price-table-6.active .mighty-border-span1 {
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.mighty-price-table-6 .mighty-border-span1::after,
+.mighty-price-table-6 .mighty-border-span1::before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-top: 2px solid var(--color-theme-primary);
+    border-bottom: 2px solid var(--color-theme-primary);
+}
+
+.mighty-price-table-6 .mighty-border-span1::before {
+    left: auto;
+    right: 0;
+}
+
+.mighty-price-table-6 .mighty-border-span2::after,
+.mighty-price-table-6 .mighty-border-span2::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    left: 0;
+    top: 0;
+    border-right: 2px solid var(--color-theme-primary);
+    border-left: 2px solid var(--color-theme-primary);
+}
+
+.mighty-price-table-6 .mighty-border-span2::before {
+    top: auto;
+    bottom: 0;
+}
+
+.mighty-price-table-6:hover .mighty-border-span1::after,
+.mighty-price-table-6:hover .mighty-border-span1::before,
+.mighty-price-table-6:hover .mighty-border-span2::after,
+.mighty-price-table-6:hover .mighty-border-span2::before {
+    -webkit-animation: blink .3s linear;
+    -moz-animation: blink .3s linear;
+    -ms-animation: blink .3s linear;
+    -o-animation: blink .3s linear;
+    animation: blink .3s linear;
+    visibility: visible;
+    animation-delay: 1s;
+}
+
+.mighty-price-table-6 .mighty-price-header .icon-img-box {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto 20px;
+    line-height: 100px;
+    position: relative;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
+.mighty-price-table-6 .mighty-price-header .icon-img-box svg {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
+.mighty-price-table-6:hover .mighty-price-header .icon-img-box svg,
+.mighty-price-table-6.active .mighty-price-header .icon-img-box svg {
+    filter: var(--filter-box-shadow);
+}
+
+.mighty-price-table-6.active .mighty-price-header .icon-img-box svg path {
+    fill: var(--color-theme-primary);
+}
+
+.mighty-price-table-6:hover .mighty-price-header .icon-img-box svg path {
+    fill: var(--color-theme-primary);
+}
+
+/* ---------------Style 2--------------- */
+
+.mighty-price-table-2 {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+
+.mighty-price-table-6.mighty-price-table-2 .mighty-price-header {
+    position: static;
+}
+
+.mighty-price-table-2 .mighty-price-header {}
+
+.mighty-price-table-2 .mighty-price-header .mighty-price-header-inner {
+    width: auto;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
+.mighty-price-table-2 .mighty-price-body {
+    width: 65%;
+    padding-left: 50px;
+}
+
+.mighty-price-table-2 .mighty-price-footer {
+    width: 25%;
+    text-align: right;
+    position: relative;
+    z-index: 99;
+}
+
+.mighty-price-table-2 .mighty-price-body .mighty-price-service {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mighty-price-table-6.mighty-price-table-2 .mighty-price-body ul.mighty-price-service li {
+    width: 50%;
+}
+
+.mighty-price-table-6.mighty-price-table-2 .mighty-price-header .mighty-price-label {
+    margin: 0;
+    position: relative;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
+.mighty-price-table-6.mighty-price-table-2:hover .mighty-price-header .mighty-price-label,
+.mighty-price-table-6.mighty-price-table-2.active .mighty-price-header .mighty-price-label {
+    color: var(--color-theme-primary);
+    font-size: var(--font-size-h5);
+}
+
+.mighty-price-table-6.mighty-price-table-2 .mighty-border-span1 {
+    right: auto;
+    left: 17px;
+    min-width: 112px;
+    height: 112px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.mighty-price-table-6.mighty-price-table-2:hover .mighty-border-span1,
+.mighty-price-table-2.active .mighty-border-span1 {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: auto;
+    left: 0;
+    transform: translateY(0);
+}
+
+.mighty-price-table-6.mighty-price-table-2 .mighty-price {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    position: relative;
+    color: var(--color-theme-white);
+    line-height: normal;
+}
+
+.mighty-price-table-6.mighty-price-table-2 .mighty-price span {
+    font-size: var(--font-size-h4);
+}
+
+.mighty-price-table-6.mighty-price-table-2:hover .mighty-price,
+.mighty-price-table-6.mighty-price-table-2.active .mighty-price {
+    text-shadow: var(--color-theme-hover-shadow);
+    color: var(--color-theme-primary);
+    font-size: var(--font-size-h3);
+}
+
+/* style 2 with icon */
+
+.mighty-price-table-2.mighty-with-icon {
+    min-height: 315px;
+    padding-right: 30px;
+}
+
+.mighty-price-table-2.mighty-with-icon .mighty-border-span1 {
+    width: 100px;
+    height: 100px;
+    right: auto;
+    left: 0;
+    min-width: 100px;
+}
+
+.mighty-price-table-2.mighty-with-icon .mighty-border-span1 {
+    width: 100px;
+    height: 100px;
+    right: 0;
+    left: 0;
+    min-width: 100px;
+    top: 0;
+    transform: translateY(0);
+}
+
+.mighty-price-table-2.mighty-with-icon .mighty-price-header .mighty-price-label,
+.mighty-price-table-2.mighty-with-icon .mighty-price {
+    color: var(--color-theme-primary);
+}
+
+.mighty-price-table-2.mighty-with-icon:hover .mighty-price-header .mighty-price-label,
+.mighty-price-table-2.mighty-with-icon.active .mighty-price-header .mighty-price-label {
+    color: var(--color-theme-white);
+}
+
+.mighty-price-table-6.mighty-price-table-2.mighty-with-icon .mighty-price-service {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.mighty-price-table-2.mighty-with-icon .mighty-price-body {
+    text-align: center;
+    width: 59%;
+}
+
+.mighty-price-table-2.mighty-with-icon .mighty-price-body ul.mighty-price-service li {
+    width: 100%;
+    position: relative;
+}
+
+.mighty-price-table-2.mighty-with-icon .mighty-price-footer {
+    text-align: center;
+}
+
+.mighty-price-table-2.mighty-with-icon .mighty-price span {
+    font-size: var(--font-size-h3);
+    display: inline-block;
+}
+
+.mighty-price-table-2.mighty-with-icon .mighty-price-footer .mighty-price-description {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.mighty-price-table-2.mighty-with-icon .mighty-price-body ul.mighty-price-service li svg {
+    box-shadow: var(--color-theme-hover-shadow);
+}
+
+.mighty-price-table-2.mighty-with-icon .mighty-price-header .mighty-price-header-inner {
+    width: 100%;
+}
+
+.mighty-price-table-2.mighty-with-icon .mighty-price-header {
+    position: relative;
+    width: 16%;
+}
+
+.mighty-price-table-2.mighty-with-icon:hover .mighty-price-header .mighty-price-header-inner,
+.mighty-price-table-2.mighty-with-icon.active .mighty-price-header .mighty-price-header-inner {
+    position: static;
+}
+
+.mighty-price-table-2.mighty-with-icon:hover .mighty-price-header,
+.mighty-price-table-2.mighty-with-icon.active .mighty-price-header {
+    position: static;
+}
+
+.mighty-price-table-2.mighty-with-icon.active .mighty-border-span1 {
+    width: 100%;
+    height: 100%;
+}
+
+/* style 1 with divider */
+
+.mighty-price-table-6.mighty-with-devider .mighty-price-devider {
+    border-top: 2px solid var(--color-theme-white);
+    margin: 20px 0 10px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
+.mighty-price-table-6.mighty-with-devider:hover .mighty-price-devider,
+.mighty-price-table-6.mighty-with-devider.active .mighty-price-devider {
+    border-color: var(--color-theme-primary);
+    box-shadow: var(--color-theme-hover-shadow);
+}
+
+.mighty-price-table-6.mighty-with-devider .mighty-price-devider .mighty-border-span1 {
+    width: 100%;
+    height: 100%;
+    top: 17%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    opacity: 0;
+    transform: scaleY(0);
+}
+
+.mighty-price-table-6.mighty-with-devider:hover .mighty-price-devider .mighty-border-span1,
+.mighty-price-table-6.mighty-with-devider.active .mighty-price-devider .mighty-border-span1 {
+    opacity: 1;
+    transform: scaleY(1);
+    top: 0;
+}
+
+.mighty-price-container.mighty-price-table-6.mighty-with-devider {
+    padding: 0 30px 30px;
+}
+
+.mighty-price-table-6.mighty-with-devider .mighty-price,
+.mighty-price-table-6.mighty-with-devider .mighty-price span {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
+.mighty-price-table-6.mighty-with-devider:hover .mighty-price,
+.mighty-price-table-6.mighty-with-devider.active .mighty-price {
+    text-shadow: var(--color-theme-hover-shadow);
+}
+
+.mighty-price-table-6.mighty-with-devider:hover .mighty-price span,
+.mighty-price-table-6.mighty-with-devider.active .mighty-price span {
+    font-size: var(--font-size-h4);
+}
+
+/*---------------------------------------------------------------------
+                        Mighty domain pricing table
+-----------------------------------------------------------------------*/
+.mighty-domain-table .mighty-table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background-color: transparent;
+    border: none;
+}
+
+.mighty-domain-table.table-responsive::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+.mighty-domain-table thead tr .mighty-heading {
+    border-collapse: collapse;
+    background: var(--color-theme-primary-opacity);
+    color: var(--color-theme-white);
+    border: none;
+    padding: 36px 10px;
+    font-size: var(--font-size-h5);
+    line-height: var(--font-line-height-h5);
+    letter-spacing: var(--font-letter-spacing-h5);
+    font-weight: var(--font-weight-h5);
+}
+
+.mighty-domain-table thead tr .mighty-heading h5 {
+    color: var(--color-theme-white);
+}
+
+.mighty-domain-table .mighty-table .mighty-row {
+    border: none;
+    border-bottom: 1px solid var(--color-theme-bgborder);
+    padding: 20px 10px;
+}
+
+.mighty-domain-table thead tr .mighty-heading th {
+    width: 25%;
+    border: 0px;
+    padding: 17px 10px;
+    font-size: 1.17647rem;
+    background-color: transparent;
+}
+
+/* Domain Search result css */
+#mighty-domain-search-result {
+    padding: 15px;
+    font-size: 20px;
+}
+
+#mighty-domain-search-result .mighty-wp-whmcs-domain-available-div {
+    background-color: #e1fbd5;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#mighty-domain-search-result .mighty-result-btn {
+    font-size: 15px;
+    padding: 0px 10px;
+    border-radius: 4px;
+    float: right;
+    background-color: #49c52b00;
+    border-color: #eee;
+    color: #97c340;
+}
+
+#mighty-domain-search-result .mighty-result-btn a {
+    color: #97c340;
+    font-weight: 700;
+}
+
+#mighty-domain-search-result .mighty-wp-whmcs-domain-unavailable-div {
+    background-color: #ffc1c1;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#mighty-domain-search-result .mighty-wp-whmcs-domain-info-div {
+    background-color: #ffe7c1;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.domain-names span {
+    padding: 0 15px;
+    border-left: 1px solid var(--color-theme-white);
+}
+
+.custom-html-widget .domain-names span:first-child {
+    border: none;
+    padding-left: 0;
+}
+
+/*---------------------------------------------------------------------
+                        Redponsive
+---------------------------------------------------------------*/
+
+@media(min-width:768px) {
+
+    .mighty-price-table-2 {
+        padding-right: 15px;
+        transition: all 0.5s ease;
+    }
+
+    .mighty-price-table-2:hover,
+    .mighty-price-table-2.active {
+        padding-right: 30px;
+    }
+
+}
+
+@media(max-width: 1199px) {
+    .mighty-price-table-2 .mighty-price-body {
+        width: 60%;
+    }
+}
+
+@media(max-width:991px) {
+
+    .mighty-price-table-2 .mighty-price-body {
+        padding-left: 20px;
+    }
+
+}
+
+@media(max-width:767px) {
+
+    .mighty-price-table-2 .mighty-price-body {
+        padding-left: 0;
+    }
+
+    .mighty-second-search-style .mighty-domain-shortcode .mighty-wp-whmcs-form-input-box input[type="text"] {
+        width: 66%;
+    }
+
+    .mighty-price-table-6 .mighty-border-span1 {
+        width: 100%;
+        height: 100%;
+        top: 0;
+    }
+
+    .mighty-price-table-2 .mighty-price-header {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mighty-price-table-2 .mighty-price-body {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .mighty-price-table-6.mighty-price-table-2 .mighty-price-body ul.mighty-price-service li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mighty-price-table-2 .mighty-price-footer {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mighty-price-table-6.mighty-price-table-2 .mighty-border-span1 {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        transform: translateY(0);
+    }
+
+    .mighty-price-table-6 .mighty-price-header .icon-img-box {
+        margin-bottom: 0;
+    }
+
+    .mighty-price-table-2.mighty-with-icon .mighty-price-header .mighty-price-header-inner {
+        position: static;
+    }
+
+    .mighty-price-table-2.mighty-with-icon .mighty-price-header {
+        position: static;
+        width: 100%;
+    }
+
+    .mighty-price-table-2.mighty-with-icon .mighty-price-body {
+        width: 100%;
+    }
+
+}
+
+@media(max-width:575px) {
+
+    .mighty-wp-whmcs-form-input-box input[type="text"] {
+        width: 100%;
+    }
+
+    .mighty-wp-whmcs-form-input-box .mighty-domain-btn {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    .mighty-price-table-2.mighty-with-icon .mighty-border-span1 {
+        width: 100%;
+        height: 100%;
+    }
+
+}

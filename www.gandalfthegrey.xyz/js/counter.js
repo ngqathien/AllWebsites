@@ -1,0 +1,1 @@
+!function(t){"use strict";t(document).ready((function(){t(".timer").length>0&&t(".timer").countTo()}))}(jQuery);

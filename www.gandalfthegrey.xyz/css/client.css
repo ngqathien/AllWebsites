@@ -1,0 +1,185 @@
+.mighty-client .item {
+	text-align: center;
+}
+
+.mighty-client .item .mighty-client-img svg path {
+	transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
+.mighty-client .item .mighty-client-img {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	width: 100px;
+	height: 100px;
+    line-height: 100px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
+.mighty-client .item .mighty-client-img:hover{
+    background: var(--color-theme-primary-opacity);
+}
+
+
+.mighty-client .item .mighty-client-img::before{
+    content:"";
+    border-top: 2px solid var(--color-theme-primary);
+    border-bottom: 2px solid var(--color-theme-primary);
+    position: absolute;
+    transition: all 0.2s linear;
+    left:0;
+    right:0;
+    top: 0;
+    bottom:0;
+    width: 20px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.mighty-client .item .mighty-client-img::after{
+    content:"";
+    border-left: 2px solid var(--color-theme-primary);
+    border-right: 2px solid var(--color-theme-primary);
+    position: absolute;
+    transition: all 0.2s linear;
+    left:0;
+    right:0;
+    top: 0;
+    bottom:0;
+    height : 20px;
+    opacity: 0;
+    visibility: hidden;
+}
+  
+.mighty-client .item .mighty-client-img .mighty-client-inner::before{
+    content:"";
+    border-top: 2px solid var(--color-theme-primary);
+    border-bottom: 2px solid var(--color-theme-primary);
+    position: absolute;
+    transition: all 0.2s linear;
+    right:0;
+    top: 0;
+    bottom:0;
+    width: 20px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.mighty-client .item .mighty-client-img .mighty-client-inner::after{
+    content:"";
+    border-left: 2px solid var(--color-theme-primary);
+    border-right: 2px solid var(--color-theme-primary);
+    position: absolute;
+    transition: all 0.2s linear;
+    left:0;
+    right:0;
+    bottom:0;
+    height : 20px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.mighty-client .item .mighty-client-img:hover::before{
+   width:20px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.mighty-client .item .mighty-client-img:hover::after{
+   height:20px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.mighty-client .item .mighty-client-img:hover .mighty-client-inner::before{
+   width:20px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.mighty-client .item .mighty-client-img:hover .mighty-client-inner::after{
+    height:20px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.mighty-client .item .mighty-client-img::before, 
+.mighty-client .item .mighty-client-img::after, 
+.mighty-client .item .mighty-client-img .mighty-client-inner::before, 
+.mighty-client .item .mighty-client-img .mighty-client-inner::after{
+    -webkit-animation: blink2 .3s linear;
+    -moz-animation: blink2 .3s linear;
+    -ms-animation: blink2 .3s linear;
+    -o-animation: blink2 .3s linear;
+    animation: blink2 .3s linear;
+}
+  
+.mighty-client .item .mighty-client-img:hover::before, 
+.mighty-client .item .mighty-client-img:hover::after, 
+.mighty-client .item .mighty-client-img:hover .mighty-client-inner::before, 
+.mighty-client .item .mighty-client-img:hover .mighty-client-inner::after{
+    -webkit-animation: blink .3s linear;
+    -moz-animation: blink .3s linear;
+    -ms-animation: blink .3s linear;
+    -o-animation: blink .3s linear;
+    animation: blink .3s linear;
+    visibility: visible;
+}
+
+.mighty-client-col-2.mighty-client-grid .item {
+	width: 50%;
+}
+
+.mighty-client-grid {
+	padding: 0;
+	list-style: none;
+	margin: 0;
+}
+
+.mighty-client-col-3.mighty-client-grid .item{
+    width: 33.33%;
+}
+
+.mighty-client-col-4.mighty-client-grid .item{
+    width: 25%;
+}
+
+.mighty-client-col-5.mighty-client-grid .item{
+    width: 20%;
+}
+
+.mighty-client-col-6.mighty-client-grid .item{
+    width: 16.66%;
+}
+
+@media (max-width:767px){
+    
+    .mighty-client-col-5.mighty-client-grid .item{
+        width: 33.33%;
+    }
+
+    .mighty-client-col-6.mighty-client-grid .item{
+        width: 33.33%;
+    }
+
+}
+
+@media (max-width:479px){
+    
+    .mighty-client-col-5.mighty-client-grid .item{
+        width: 50%;
+    }
+
+    .mighty-client-col-6.mighty-client-grid .item{
+        width: 50%;
+    }
+
+}

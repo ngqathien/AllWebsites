@@ -1,0 +1,45 @@
+
+/*-------------- List Style -----------------------*/
+
+.mighty-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.mighty-list li {
+	position: relative;
+    margin-bottom: 15px;
+	color: var(--color-theme-white);
+}
+
+.mighty-list li svg {
+	filter: drop-shadow( 0 0 15px rgb(10, 224, 184));
+}
+
+.mighty-list ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.mighty-list ul li {
+    font-weight: 700;
+}
+.mighty-list.mighty-one-column .mighty-list-with-icon li:last-child {
+    margin-bottom: 0;
+}
+/*-------------- Three Column -----------------------*/
+
+.mighty-list.mighty-three-column .mighty-list-with-icon {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;  
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.mighty-list.mighty-three-column .mighty-list-with-icon li {
+	margin-right: 25px;
+}

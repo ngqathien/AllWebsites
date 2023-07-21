@@ -1,0 +1,187 @@
+.mighty-tabs .nav {
+	justify-content: center;
+}
+
+.mighty-tabs .tab-content > .tab-pane {
+	animation: fadeIn 1s both;
+}
+
+.mighty-tabs .tab-content > .tab-pane .row img {
+   width: 100%;
+}
+.mighty-tabs .nav .nav-link {
+	color: var(--color-theme-primary);
+    border-radius: 0;
+    position: relative;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;  
+	display: flex;
+    align-items: center;
+    padding: 16px 17px; 
+}
+
+.mighty-tabs .nav .nav-link .icon-box-img svg, .mighty-tabs .nav .nav-link .icon-box-img i {
+	margin-right: 20px;
+    line-height: normal;
+    height: 22px;
+    width: 32px;
+    display: block;
+}
+
+.mighty-tabs .nav .nav-link.active .icon-box-img{
+    background: transparent;
+}
+
+.mighty-tabs .nav .nav-item {
+	margin: 0 15px;
+}
+
+.mighty-tabs .nav .nav-link.active, .mighty-tabs .nav .nav-link:hover {
+	background: transparent;
+}
+
+.mighty-tabs .nav .nav-link.active .tab-title, 
+.mighty-tabs .nav .nav-link:hover .tab-title{
+    color: var(--color-theme-white);
+}
+
+.mighty-tabs .mighty-inner-box ul {
+	padding: 0;
+	list-style: none;
+    margin: 0 0 30px;
+}
+
+.mighty-tabs .mighty-inner-box ul li {
+	padding-left: 15px;
+	position: relative;
+}
+
+.mighty-tabs .nav .nav-link.active .icon-box-img, 
+.mighty-tabs .nav .nav-link:hover .icon-box-img {
+	filter: var(--filter-box-shadow);
+	color: var(--color-theme-primary);
+}
+
+.mighty-tabs .nav .nav-link:hover .icon-box-img path,
+.mighty-tabs .nav .nav-link.active .icon-box-img path{
+    fill: var(--color-theme-primary);
+}
+
+.mighty-tabs .mighty-inner-box ul li::after{
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: var(--color-theme-primary);
+    left: 0;
+    top: 8px;
+    box-shadow: var(--color-theme-hover-shadow);
+}
+
+.mighty-tabs .nav .nav-link .mighty-border-span1 {
+	width: 64px;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: var(--color-theme-primary-opacity);
+	z-index: -1;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
+.mighty-tabs .nav .nav-link:hover .mighty-border-span1,
+.mighty-tabs .nav .nav-link.active .mighty-border-span1{
+    width: 100%;
+}
+
+.mighty-tabs .nav .nav-link .mighty-border-span1::after,
+.mighty-tabs .nav .nav-link .mighty-border-span1::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 8px;
+    height: 100%;
+    border-top: 2px solid var(--color-theme-primary);
+    border-bottom: 2px solid var(--color-theme-primary);
+}
+
+.mighty-tabs .nav .nav-link .mighty-border-span1::before{
+    left: auto;
+    right: 0;
+}
+
+.mighty-tabs .nav .nav-link .mighty-border-span1 .mighty-border-span2::after,
+.mighty-tabs .nav .nav-link .mighty-border-span1 .mighty-border-span2::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 8px;
+    border-left: 2px solid var(--color-theme-primary);
+    border-right: 2px solid var(--color-theme-primary);
+}
+
+.mighty-tabs .nav .nav-link .mighty-border-span1 .mighty-border-span2::before{
+    top: auto;
+    bottom: 0;
+}
+
+.mighty-tabs .mighty-btn-container {
+	width: 66%;
+	margin-left: auto;
+}
+
+.tab-content-list li {
+	width: 50%;
+}
+
+.mighty-tabs.text-center .nav {
+	justify-content: center;
+}
+
+.mighty-tabs.text-left .nav {
+	justify-content: left;
+}
+
+.mighty-tabs.text-right .nav {
+	justify-content: right;
+}
+
+/* Responsive */
+@media (max-width: 991px){
+    
+    .mighty-tabs .nav .nav-item {
+        margin: 0 15px 15px;
+    }
+
+}
+
+@media (max-width: 767px){
+    
+    .tab-content-list li {
+        width: 100%;
+    }
+
+    .mighty-tabs .nav {
+        justify-content: left;
+    }
+
+    .mighty-tabs .nav .nav-item {
+        margin: 0 0 15px;
+        width: 100%;
+    }
+
+}

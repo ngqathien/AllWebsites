@@ -1,0 +1,60 @@
+.mighty-accordion .accordion-title {
+	color: var(--color-theme-white);
+    position: relative;
+    padding-left: 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.mighty-accordion .mighty-accordion-title .mighty-icon-right {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 15px;
+}
+
+.mighty-accordion .mighty-active .mighty-accordion-title .mighty-icon-right {
+	filter: var(--filter-box-shadow);
+}
+
+.mighty-accordion .mighty-active .accordion-title {
+	color: var(--color-theme-primary);
+	text-shadow: var(--color-theme-hover-shadow);
+}
+
+.mighty-accordion .mighty-content-text {
+	margin-bottom: 0;
+}
+
+.mighty-accordion .mighty-accordion-block {
+	margin-bottom: 40px;
+}
+
+.mighty-accordion .mighty-accordion-block:last-child {
+	margin-bottom: 0;
+}
+
+.mighty-accordion .mighty-accordion-title {
+	cursor: pointer;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;  
+	display: flex;
+	align-items: center;
+}
+
+.mighty-accordion .mighty-accordion-details {
+	padding-left: 20px;
+}
+
+.mighty-accordion .mighty-icon-right .active,.mighty-accordion .mighty-icon-left .active {
+	display: none;
+}
+
+.mighty-accordion .mighty-active .mighty-icon-right .active,.mighty-accordion .mighty-active .mighty-icon-left .active {
+	display: inline-block;
+}
+
+.mighty-accordion .mighty-active .mighty-icon-right .inactive,.mighty-accordion .mighty-active .mighty-icon-left .inactive {
+	display: none;
+}
